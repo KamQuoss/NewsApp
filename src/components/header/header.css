@@ -1,0 +1,16 @@
+header {
+    background-color: #EAECEE;
+    color: #212F3D;
+    height: 60px;
+    font-size: medium;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul>li {
+    list-style: none;
+}

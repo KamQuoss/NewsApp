@@ -1,0 +1,7 @@
+.ui.card:first-child {
+    margin: 1em 0 !important;
+}
+
+#home-page .ui.card:last-child {
+    margin-bottom: 1em;
+}

@@ -1,0 +1,62 @@
+main {
+    min-height: calc(100vh - 180px);
+}
+
+#home-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Coffe-news-page {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background-color: rgb(248, 245, 245);
+    /* flex-basis: 30%; */
+    border: solid 1px #dddddd;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 1px 1px #dddddd;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-card-img {
+    background-color: lightblue;
+}
+
+.news-card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.news-card-source {
+    position: absolute;
+    top: 20px;
+    background: rgb(69, 122, 236);
+    color: whitesmoke;
+    padding: 6px 12px;
+    font-weight: 600;
+    border-left: 2px solid rgb(40, 86, 185);
+}
+
+.news-card-text {
+    padding: 8px;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+main .ui.pagination.menu {
+    margin: 1.6rem calc(50% - 148px);
+}
